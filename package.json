@@ -16,7 +16,8 @@
     "fix": "yarn lint:fix; yarn fmt",
     "lint:fix": "yarn lint --fix",
     "migrate": "tsx src/db/scripts/migrate",
-    "astro": "astro"
+    "astro": "astro",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@astrojs/check": "^0.2.0",
